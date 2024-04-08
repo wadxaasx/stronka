@@ -1,1 +1,1 @@
-# stronka
+# stronax.github.io

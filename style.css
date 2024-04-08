@@ -13,33 +13,19 @@
 
 body {
   position: relative;
+  height: 2160px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  width: 100%;
-  background: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/8727c9b1-be21-4932-a221-4257b59a74dd);
-  background-repeat: no-repeat;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  animation: slidein 120s forwards infinite alternate;
-}
-
-@keyframes slidein {
-  0%,
-  100% {
-    background-position: 20% 0%;
-    background-size: 3400px;
-  }
-  50% {
-    background-position: 100% 0%;
-    background-size: 2400px;
-  }
+  justify-content: flex-start;
+  max-height: 10000px;
+  max-width: 10000px;
+  background-image: url(img.jpg);
+  background-size: 1920px 2160px;
 }
 
 .album-cover {
-  width: 90%;
+  width: 100%;
 }
 
 .swiper {
@@ -81,19 +67,10 @@ body {
   transition: all 0.4s linear;
 }
 
-.swiper-slide:hover .overlay {
-  opacity: 1;
-}
-
-.swiper-slide .overlay ion-icon {
-  opacity: 0;
-}
-
-.swiper-slide-active:hover .overlay ion-icon {
-  font-size: 4rem;
-  color: #eb0b0b;
-  opacity: 1;
-  cursor: pointer;
+.swiper-slide img {
+  display: flex;
+  width: 100%;
+  height: 100%;
 }
 
 /* Music Player */

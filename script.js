@@ -9,22 +9,22 @@ const artistName = document.querySelector(".music-player p");
 
 const songs = [
   {
-    title: "Symphony",
-    name: "Clean Bandit ft. Zara Larsson",
+    title: "FE!N",
+    name: "Travis Scott",
     source:
-      "https://github.com/ecemgo/mini-samples-great-tricks/raw/main/song-list/Clean-Bandit-Symphony.mp3",
+      "https://github.com/wadxaasx/stronka.github.io/raw/main/Travis%20Scott%20-%20FE!N%20(Lyrics).mp3",
   },
   {
-    title: "Pawn It All",
-    name: "Alicia Keys",
+    title: "Yale",
+    name: "Ken Car$on",
     source:
-      "https://github.com/ecemgo/mini-samples-great-tricks/raw/main/song-list/Pawn-It-All.mp3",
+      "https://github.com/wadxaasx/stronka.github.io/raw/main/Yale.mp3",
   },
   {
     title: "Seni Dert Etmeler",
     name: "Madrigal",
     source:
-      "https://github.com/ecemgo/mini-samples-great-tricks/raw/main/song-list/Madrigal-Seni-Dert-Etmeler.mp3",
+      "https://github.com/wadxaasx/stronka.github.io/raw/main/Rich%20Amiri%20-%20One%20Call%20(Official%20Audio).mp3",
   },
   {
     title: "Instant Crush",
